@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"twitter",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "twitter",
+    "description": "api documentation for [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)",
     "devDependencies": {
-        "twitter": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "twitter": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-twitter",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-twitter",
+    "keywords": [
+        "documentation",
+        "twitter"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_twitter.js",
+    "name": "npmdoc-twitter",
+    "nameAlias": "npmdoc_twitter",
+    "nameOriginal": "npmdoc-twitter",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-twitter.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
