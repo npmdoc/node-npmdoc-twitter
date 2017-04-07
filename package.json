@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "twitter",
-    "description": "api documentation for [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)",
+    "description": "api documentation for [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter) [![npm package](https://img.shields.io/npm/v/npmdoc-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "twitter": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }

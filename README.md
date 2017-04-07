@@ -1,11 +1,13 @@
-# api documentation for  [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)
+# api documentation for  [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter)  [![npm package](https://img.shields.io/npm/v/npmdoc-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)
 #### Twitter API client library for node.js
 
 [![NPM](https://nodei.co/npm/twitter.png?downloads=true)](https://www.npmjs.com/package/twitter)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-twitter/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-twitter_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-twitter/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-twitter/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-twitter_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-twitter/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-twitter/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-twitter/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-twitter/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
