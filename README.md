@@ -1,4 +1,7 @@
-# api documentation for  [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter)  [![npm package](https://img.shields.io/npm/v/npmdoc-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)
+# npmdoc-twitter
+
+#### basic api documentation for  [twitter (v1.7.0)](https://github.com/desmondmorris/node-twitter)  [![npm package](https://img.shields.io/npm/v/npmdoc-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-twitter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-twitter)
+
 #### Twitter API client library for node.js
 
 [![NPM](https://nodei.co/npm/twitter.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/twitter)
@@ -63,7 +66,8 @@
         "lint": "eslint test/*.js lib/*.js",
         "test": "npm run lint && mocha"
     },
-    "version": "1.7.0"
+    "version": "1.7.0",
+    "bin": {}
 }
 ```
 
