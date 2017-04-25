@@ -17,7 +17,7 @@
 <tspan x="10" y="234">    ├─┬ form-data@2.1.4 </tspan>
 <tspan x="10" y="250">    │ └── asynckit@0.4.0 </tspan>
 <tspan x="10" y="266">    ├─┬ har-validator@4.2.1 </tspan>
-<tspan x="10" y="282">    │ ├─┬ ajv@4.11.6 </tspan>
+<tspan x="10" y="282">    │ ├─┬ ajv@4.11.7 </tspan>
 <tspan x="10" y="298">    │ │ ├── co@4.6.0 </tspan>
 <tspan x="10" y="314">    │ │ └─┬ json-stable-stringify@1.0.1 </tspan>
 <tspan x="10" y="330">    │ │   └── jsonify@0.0.0 </tspan>

@@ -74,15 +74,6 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.twitter.toString">
-            function <span class="apidocSignatureSpan">twitter.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">twitter.</span>parser.prototype</span>
 
         </li>
@@ -121,19 +112,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.twitter.parser.prototype.receive">
             function <span class="apidocSignatureSpan">twitter.parser.prototype.</span>receive
             <span class="apidocSignatureSpan">(buffer)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.twitter.toString">module twitter.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.twitter.toString.toString">
-            function <span class="apidocSignatureSpan">twitter.</span>toString
-            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -228,37 +206,6 @@
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.twitter.toString" id="apidoc.element.twitter.toString">
-        function <span class="apidocSignatureSpan">twitter.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-// The parser emits events!
-Parser.prototype = Object.create(EventEmitter.prototype);
-
-Parser.END        = '\r\n';
-Parser.END_LENGTH = 2;
-
-Parser.prototype.receive = function receive(buffer) {
-this.buffer += buffer.<span class="apidocCodeKeywordSpan">toString</span>('utf8');
-var index, json;
-
-// We have END?
-while ((index = this.buffer.indexOf(Parser.END)) &gt; -1) {
-  json = this.buffer.slice(0, index);
-  this.buffer = this.buffer.slice(index + Parser.END_LENGTH);
-  if (json.length &gt; 0) {
-...</pre></li>
     </ul>
 
 
@@ -362,40 +309,6 @@ var EventEmitter = require('events').EventEmitter;
 
 var Parser = module.exports = function Parser() {
 // Make sure we call our parents constructor
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.twitter.toString" id="apidoc.module.twitter.toString">module twitter.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.twitter.toString.toString" id="apidoc.element.twitter.toString.toString">
-        function <span class="apidocSignatureSpan">twitter.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-// The parser emits events!
-Parser.prototype = Object.create(EventEmitter.prototype);
-
-Parser.END        = '\r\n';
-Parser.END_LENGTH = 2;
-
-Parser.prototype.receive = function receive(buffer) {
-this.buffer += buffer.<span class="apidocCodeKeywordSpan">toString</span>('utf8');
-var index, json;
-
-// We have END?
-while ((index = this.buffer.indexOf(Parser.END)) &gt; -1) {
-  json = this.buffer.slice(0, index);
-  this.buffer = this.buffer.slice(index + Parser.END_LENGTH);
-  if (json.length &gt; 0) {
 ...</pre></li>
     </ul>
 
